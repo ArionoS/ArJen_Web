@@ -53,10 +53,10 @@ License URI: http://www.themevault.net/license/-->
                     <div class="top-row">
                         <div class="row">
                             <div class="col-md-2 col-sm-6 col-xs-6">
-                                <div id="logo">
+                            <div id="logo">
                                     <!--<a href="index.html"><img src="images/logo.png" alt="logo"></a>-->
-                                    <a href="index.html"><span>vacay</span>home</a>
-                                </div>                       
+                                    <a href="index.html"><span>ARJ </span>home</a>
+                                </div>                      
                             </div>
                             <div class="col-sm-6 visible-sm">
                                 <div class="text-right"><button type="button" class="book-now-btn">Book Now</button></div>
