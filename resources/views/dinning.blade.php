@@ -10,22 +10,22 @@ License URI: http://www.themevault.net/license/-->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="images/icons/favicon.png"/>
+        <link rel="icon" href="a/images/icons/favicon.png"/>
         <title>vacayhome</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="a/css/bootstrap.min.css" rel="stylesheet">
+        <link href="a/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <!-- Custom styles for this template -->
-        <link href="css/style.css" rel="stylesheet">
-        <link href="fonts/antonio-exotic/stylesheet.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/lightbox.min.css">
-        <link href="css/responsive.css" rel="stylesheet">
-        <script src="js/jquery.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="js/lightbox-plus-jquery.min.js" type="text/javascript"></script>
-        <script src="js/instafeed.min.js" type="text/javascript"></script>
-        <script src="js/custom.js" type="text/javascript"></script>
+        <link href="a/css/style.css" rel="stylesheet">
+        <link href="a/fonts/antonio-exotic/stylesheet.css" rel="stylesheet">
+        <link rel="stylesheet" href="a/css/lightbox.min.css">
+        <link href="a/css/responsive.css" rel="stylesheet">
+        <script src="a/js/jquery.min.js" type="text/javascript"></script>
+        <script src="a/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="a/js/lightbox-plus-jquery.min.js" type="text/javascript"></script>
+        <script src="a/js/instafeed.min.js" type="text/javascript"></script>
+        <script src="a/js/custom.js" type="text/javascript"></script>
     </head>
     <body>
         <div id="page">
@@ -248,20 +248,20 @@ License URI: http://www.themevault.net/license/-->
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-xs-12 width-50 width-set-50">
-                            <div class="footer-details">
-                                <h4>explore</h4>
-                                <ul class="list-unstyled footer-links">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="rooms.html">Rooms</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a href="#">Dinning</a></li>
-                                    <li> <a href="news.html">News</a></li>
-                                    <li> <a href="contact.html">Contact</a></li>
-                                </ul>
+                        <div class="collapse navigation navbar-collapse navbar-ex1-collapse remove-space">
+                                        <ul class="list-unstyled nav1 cl-effect-10">
+                                            <li><a  data-hover="Home" class="active"><span>Home</span></a></li>
+                                            <li><a data-hover="About" href = {{url('about')}}><span>About</span></a></li>
+                                            <li><a data-hover="Rooms" href = {{url('rooms')}}><span>Rooms</span></a></li>
+                                            <li><a data-hover="Gallery" href = {{url('gallery')}}><span>Gallery</span></a></li>
+                                            <li><a data-hover="Dinning" href = {{url('dinning')}}><span>Dinning</span></a></li>
+                                            <li><a data-hover="News" href = {{url('news')}}><span>News</span></a></li>
+                                            <li><a data-hover="Contact Us" href = {{url('contact')}}><span>contact Us</span></a></li>
+                                        </ul>
+
+                                    </div>
+                                </nav>
                             </div>
-                        </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="footer-details">
                                 <h4>Now On Instagram</h4>
