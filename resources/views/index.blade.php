@@ -78,12 +78,12 @@ License URI: http://www.themevault.net/license/-->
                                     <div class="collapse navigation navbar-collapse navbar-ex1-collapse remove-space">
                                         <ul class="list-unstyled nav1 cl-effect-10">
                                             <li><a  data-hover="Home" class="active"><span>Home</span></a></li>
-                                            <li><a data-hover="About"  href="about.blade.php"><span>About</span></a></li>
-                                            <li><a data-hover="Rooms"  href="rooms.blade.php"><span>Rooms</span></a></li>
-                                            <li><a data-hover="Gallery"  href="gallery.html"><span>Gallery</span></a></li>
-                                            <li><a data-hover="Dinning" href="dinning.html"><span>Dinning</span></a></li>
-                                            <li><a data-hover="News" href="news.html"><span>News</span></a></li>
-                                            <li><a data-hover="Contact Us" href="contact.html"><span>contact Us</span></a></li>
+                                            <li><a data-hover="About" href = {{url('about')}}><span>About</span></a></li>
+                                            <li><a data-hover="Rooms" href = {{url('rooms')}}><span>Rooms</span></a></li>
+                                            <li><a data-hover="Gallery" href = {{url('gallery')}}><span>Gallery</span></a></li>
+                                            <li><a data-hover="Dinning" href = {{url('dinning')}}><span>Dinning</span></a></li>
+                                            <li><a data-hover="News" href = {{url('news')}}><span>News</span></a></li>
+                                            <li><a data-hover="Contact Us" href = {{url('contact')}}><span>contact Us</span></a></li>
                                         </ul>
 
                                     </div>

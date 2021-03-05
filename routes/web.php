@@ -16,5 +16,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/about', function () {return view('about');})->name('about');
-Route::get('/', function () {return view('about');})->name('about');
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/rooms', function () {
+    return view('rooms');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/gallery', function () {
+    return view('gallery');
+});
+Route::get('/dinning', function () {
+    return view('dinning');
+});
+Route::get('/news', function () {
+    return view('news');
+});
