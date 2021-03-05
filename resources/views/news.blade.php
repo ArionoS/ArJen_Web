@@ -10,7 +10,7 @@ License URI: http://www.themevault.net/license/-->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="a/images/icons/favicon.png"/>
+        <link rel="icon" href="a/a/images/icons/favicon.png"/>
         <title>vacayhome</title>
 
         <!-- Bootstrap core CSS -->
@@ -54,7 +54,7 @@ License URI: http://www.themevault.net/license/-->
                         <div class="row">
                             <div class="col-md-2 col-sm-6 col-xs-6">
                             <div id="logo">
-                                    <!--<a href="index.html"><img src="images/logo.png" alt="logo"></a>-->
+                                    <!--<a href="index.html"><img src="a/images/logo.png" alt="logo"></a>-->
                                     <a href="index.html"><span>ARJ </span>home</a>
                                 </div>                      
                             </div>
@@ -95,7 +95,7 @@ License URI: http://www.themevault.net/license/-->
 
 
             <!--end-->
-            <section class="image-head-wrapper" style="background-image: url('images/banner5.jpg');">
+            <section class="image-head-wrapper" style="background-image: url('a/images/banner5.jpg');">
                 <div class="inner-wrapper">
                     <h1>News</h1>
                 </div>
@@ -109,7 +109,7 @@ License URI: http://www.themevault.net/license/-->
                             <div class="side-A">
                                 <div class="product-thumb">
                                     <div class="image">
-                                        <a href="single-blog.html"><img alt="image" class="img-responsive" src="images/category1.png"></a>
+                                        <a href="single-blog.html"><img alt="image" class="img-responsive" src="a/images/category1.png"></a>
                                     </div>
                                 </div>
                             </div>
@@ -126,7 +126,7 @@ License URI: http://www.themevault.net/license/-->
                             <div class="side-A">
                                 <div class="product-thumb">
                                     <div class="image">
-                                        <a href="single-blog.html"><img src="images/category2.png" class="img-responsive" alt="image"></a>
+                                        <a href="single-blog.html"><img src="a/images/category2.png" class="img-responsive" alt="image"></a>
                                     </div>
                                 </div>
                             </div>
@@ -152,7 +152,7 @@ License URI: http://www.themevault.net/license/-->
                             <div class="side-B">
                                 <div class="product-thumb">
                                     <div class="image txt-rgt">
-                                        <a class="arrow-left" href="single-blog.html"><img alt="imaga" class="img-responsive" src="images/category3.png"></a>
+                                        <a class="arrow-left" href="single-blog.html"><img alt="imaga" class="img-responsive" src="a/images/category3.png"></a>
                                     </div>
                                 </div>
                             </div>
@@ -170,7 +170,7 @@ License URI: http://www.themevault.net/license/-->
                             <div class="side-B">
                                 <div class="product-thumb txt-rgt">
                                     <div class="image">
-                                        <a class="arrow-left" href="single-blog.html"><img alt="imaga" class="img-responsive" src="images/category4.png"></a>
+                                        <a class="arrow-left" href="single-blog.html"><img alt="imaga" class="img-responsive" src="a/images/category4.png"></a>
                                     </div>
                                 </div>
                             </div>
