@@ -10,7 +10,7 @@ License URI: http://www.themevault.net/license/-->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="a/images/icons/favicon.png"/>
+        <link rel="icon" href="a/a/images/icons/favicon.png"/>
         <title>vacayhome</title>
 
         <!-- Bootstrap core CSS -->
@@ -54,7 +54,7 @@ License URI: http://www.themevault.net/license/-->
                         <div class="row">
                             <div class="col-md-2 col-sm-6 col-xs-6">
                                 <div id="logo">
-                                    <!--<a href="index.html"><img src="images/logo.png" alt="logo"></a>-->
+                                    <!--<a href="index.html"><img src="a/images/logo.png" alt="logo"></a>-->
                                     <a href="index.html"><span>vacay</span>home</a>
                                 </div>                       
                             </div>
@@ -96,7 +96,7 @@ License URI: http://www.themevault.net/license/-->
 
 
             <!--end-->
-            <section class="image-head-wrapper" style="background-image: url('images/banner.jpg');">
+            <section class="image-head-wrapper" style="background-image: url('a/images/banner.jpg');">
                 <div class="inner-wrapper">
                     <h1>Rooms</h1>
                 </div>
@@ -109,36 +109,36 @@ License URI: http://www.themevault.net/license/-->
                     <div class="row">
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                             <div class="gallery-image">
-                                <img class="img-responsive" src="images/room1.png">
+                                <img class="img-responsive" src="a/images/room1.png">
                                 <div class="overlay">
-                                    <a class="info pop example-image-link img-responsive" href="images/room1.png" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                    <a class="info pop example-image-link img-responsive" href="a/images/room1.png" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
                                     <p><a>delux room</a></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                             <div class="gallery-image">
-                                <img class="img-responsive" src="images/room2.png">
+                                <img class="img-responsive" src="a/images/room2.png">
                                 <div class="overlay">
-                                    <a class="info pop example-image-link img-responsive" href="images/room2.png" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                    <a class="info pop example-image-link img-responsive" href="a/images/room2.png" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
                                     <p><a>delux room</a></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                             <div class="gallery-image">
-                                <img class="img-responsive" src="images/room3.png">
+                                <img class="img-responsive" src="a/images/room3.png">
                                 <div class="overlay">
-                                    <a class="info pop example-image-link img-responsive" href="images/room3.png" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                    <a class="info pop example-image-link img-responsive" href="a/images/room3.png" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
                                     <p><a>delux room</a></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                             <div class="gallery-image">
-                                <img class="img-responsive" src="images/room4.png">
+                                <img class="img-responsive" src="a/images/room4.png">
                                 <div class="overlay">
-                                    <a class="info pop example-image-link img-responsive" href="images/room4.png" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                    <a class="info pop example-image-link img-responsive" href="a/images/room4.png" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
                                     <p><a>delux room</a></p>
                                 </div>
                             </div>
@@ -155,7 +155,7 @@ License URI: http://www.themevault.net/license/-->
                             <div class="col-md-3 col-sm-3 col-xs-6 width-50">
                                 <div class="service-details text-center">
                                     <div class="service-image">
-                                        <img alt="image" class="img-responsive" src="images/icons/wifi.png">
+                                        <img alt="image" class="img-responsive" src="a/images/icons/wifi.png">
                                     </div>
                                     <h4><a>free wifi</a></h4>
                                 </div>
@@ -163,7 +163,7 @@ License URI: http://www.themevault.net/license/-->
                             <div class="col-md-3 col-sm-3 col-xs-6 width-50">
                                 <div class="service-details text-center">
                                     <div class="service-image">
-                                        <img alt="image" class="img-responsive" src="images/icons/key.png">
+                                        <img alt="image" class="img-responsive" src="a/images/icons/key.png">
                                     </div>
                                     <h4><a>room service</a></h4>
                                 </div>
@@ -171,7 +171,7 @@ License URI: http://www.themevault.net/license/-->
                             <div class="col-md-3 col-sm-3 col-xs-6 mt-25">
                                 <div class="service-details text-center">
                                     <div class="service-image">
-                                        <img alt="image" class="img-responsive" src="images/icons/car.png">
+                                        <img alt="image" class="img-responsive" src="a/images/icons/car.png">
                                     </div>
                                     <h4><a>free parking</a></h4>
                                 </div>
@@ -179,7 +179,7 @@ License URI: http://www.themevault.net/license/-->
                             <div class="col-md-3 col-sm-3 col-xs-6 mt-25">
                                 <div class="service-details text-center">
                                     <div class="service-image">
-                                        <img alt="image" class="img-responsive" src="images/icons/user.png">
+                                        <img alt="image" class="img-responsive" src="a/images/icons/user.png">
                                     </div>
                                     <h4><a>customer support</a></h4>
                                 </div>
