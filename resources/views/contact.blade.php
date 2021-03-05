@@ -169,20 +169,20 @@ License URI: http://www.themevault.net/license/-->
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-xs-12 width-50 width-set-50">
-                            <div class="footer-details">
-                                <h4>explore</h4>
-                                <ul class="list-unstyled footer-links">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="rooms.html">Rooms</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a href="#">Dinning</a></li>
-                                    <li> <a href="news.html">News</a></li>
-                                    <li class="active"> <a href="contact.html">Contact</a></li>
-                                </ul>
+                        <div class="collapse navigation navbar-collapse navbar-ex1-collapse remove-space">
+                                        <ul class="list-unstyled nav1 cl-effect-10">
+                                            <li><a  data-hover="Home" class="active"><span>Home</span></a></li>
+                                            <li><a data-hover="About" href = {{url('about')}}><span>About</span></a></li>
+                                            <li><a data-hover="Rooms" href = {{url('rooms')}}><span>Rooms</span></a></li>
+                                            <li><a data-hover="Gallery" href = {{url('gallery')}}><span>Gallery</span></a></li>
+                                            <li><a data-hover="Dinning" href = {{url('dinning')}}><span>Dinning</span></a></li>
+                                            <li><a data-hover="News" href = {{url('news')}}><span>News</span></a></li>
+                                            <li><a data-hover="Contact Us" href = {{url('contact')}}><span>contact Us</span></a></li>
+                                        </ul>
+
+                                    </div>
+                                </nav>
                             </div>
-                        </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="footer-details">
                                 <h4>Now On Instagram</h4>
