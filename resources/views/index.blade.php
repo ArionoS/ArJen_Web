@@ -11,7 +11,7 @@ License URI: http://www.themevault.net/license/-->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="a/images/icons/favicon.png"/>
-        <title>vacayhome</title>
+        <title>ARJ HOME</title>
 
         <!-- Bootstrap core CSS -->
         <link href="a/css/bootstrap.min.css" rel="stylesheet">
@@ -58,7 +58,7 @@ License URI: http://www.themevault.net/license/-->
                             <div class="col-md-2 col-sm-6 col-xs-6">
                                 <div id="logo">
                                     <!--<a href="index.html"><img src="images/logo.png" alt="logo"></a>-->
-                                    <a href="index.html"><span>vacay</span>home</a>
+                                    <a href="index.html"><span>ARJ </span>home</a>
                                 </div>                       
                             </div>
                             <div class="col-sm-6 visible-sm">
@@ -78,8 +78,8 @@ License URI: http://www.themevault.net/license/-->
                                     <div class="collapse navigation navbar-collapse navbar-ex1-collapse remove-space">
                                         <ul class="list-unstyled nav1 cl-effect-10">
                                             <li><a  data-hover="Home" class="active"><span>Home</span></a></li>
-                                            <li><a data-hover="About"  href="about.html"><span>About</span></a></li>
-                                            <li><a data-hover="Rooms"  href="rooms.html"><span>Rooms</span></a></li>
+                                            <li><a data-hover="About"  href="about.blade.php"><span>About</span></a></li>
+                                            <li><a data-hover="Rooms"  href="rooms.blade.php"><span>Rooms</span></a></li>
                                             <li><a data-hover="Gallery"  href="gallery.html"><span>Gallery</span></a></li>
                                             <li><a data-hover="Dinning" href="dinning.html"><span>Dinning</span></a></li>
                                             <li><a data-hover="News" href="news.html"><span>News</span></a></li>
@@ -108,17 +108,17 @@ License URI: http://www.themevault.net/license/-->
                     <li data-target="#myCarousel1" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="item active"> <img src="a/images/banner.png" style="width:100%; height: 500px" alt="First slide">
+                    <div class="item active"> <img src="a/images/banner.jpg" style="width:100%; height: 500px" alt="First slide">
                         <div class="carousel-caption">
                             <h1>vacayhome<br> spa & Resort</h1>
                         </div>
                     </div>
-                    <div class="item"> <img src="a/images/banner2.png" style="width:100%; height: 500px" alt="Second slide">
+                    <div class="item"> <img src="a/images/banner2.jpg" style="width:100%; height: 500px" alt="Second slide">
                         <div class="carousel-caption">
                             <h1>vacayhome<br> spa & Resort</h1>
                         </div>
                     </div>
-                    <div class="item"> <img src="a/images/banner3.png" style="width:100%; height: 500px" alt="Third slide">
+                    <div class="item"> <img src="a/images/banner3.jpg" style="width:100%; height: 500px" alt="Third slide">
                         <div class="carousel-caption">
                             <h1>vacayhome<br> spa & Resort</h1>
                         </div>
