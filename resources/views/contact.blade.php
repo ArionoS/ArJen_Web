@@ -28,6 +28,7 @@ License URI: http://www.themevault.net/license/-->
         <script src="a/js/custom.js" type="text/javascript"></script>
     </head>
     <body>
+    
         <div id="page">
             <!---header top---->
             <div class="top-header">
@@ -47,6 +48,7 @@ License URI: http://www.themevault.net/license/-->
                     </div>
                 </div>
             </div>
+            
             <!--header--->
             <header class="header-container">
                 <div class="container">
@@ -72,16 +74,18 @@ License URI: http://www.themevault.net/license/-->
                                         </button>
 
                                     </div>
+                                    
                                     <div class="collapse navigation navbar-collapse navbar-ex1-collapse remove-space">
                                         <ul class="list-unstyled nav1 cl-effect-10">
-                                            <li><a data-hover="Home" href="index.html"><span>Home</span></a></li>
-                                            <li><a data-hover="About" href="about.html"><span>About</span></a></li>
-                                            <li><a data-hover="Rooms" href="rooms.html"><span>Rooms</span></a></li>
-                                            <li><a data-hover="Gallery"  href="gallery.html"><span>Gallery</span></a></li>
-                                            <li><a data-hover="Dinning" href="dinning.html"><span>Dinning</span></a></li>
-                                            <li><a data-hover="News" href="news.html"><span>News</span></a></li>
-                                            <li><a data-hover="Contact Us" class="active"><span>contact Us</span></a></li>
+                                            <li><a  data-hover="Home"><span>Home</span></a></li>
+                                            <li><a data-hover="About" href = {{url('about')}}><span>About</span></a></li>
+                                            <li><a data-hover="Rooms" href = {{url('rooms')}}><span>Rooms</span></a></li>
+                                            <li><a data-hover="Gallery" href = {{url('gallery')}}><span>Gallery</span></a></li>
+                                            <li><a data-hover="Dinning" href = {{url('dinning')}}><span>Dinning</span></a></li>
+                                            <li><a data-hover="News" href = {{url('news')}}><span>News</span></a></li>
+                                            <li><a data-hover="Contact Us" class="active" href = {{url('contact')}}><span>contact Us</span></a></li>
                                         </ul>
+
                                     </div>
                                 </nav>
                             </div>
@@ -92,6 +96,37 @@ License URI: http://www.themevault.net/license/-->
                     </div>
                 </div>
             </header>
+             <!--end-->
+             <div id="myCarousel1" class="carousel slide" data-ride="carousel"> 
+                <!-- Indicators -->
+
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel1" data-slide-to="1"></li>
+                    <li data-target="#myCarousel1" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active"> <img src="a/images/banner.jpg" style="width:100%; height: 500px" alt="First slide">
+                        <div class="carousel-caption">
+                            <h1>vacayhome<br> spa & Resort</h1>
+                        </div>
+                    </div>
+                    <div class="item"> <img src="a/images/banner2.jpg" style="width:100%; height: 500px" alt="Second slide">
+                        <div class="carousel-caption">
+                            <h1>vacayhome<br> spa & Resort</h1>
+                        </div>
+                    </div>
+                    <div class="item"> <img src="a/images/banner3.jpg" style="width:100%; height: 500px" alt="Third slide">
+                        <div class="carousel-caption">
+                            <h1>vacayhome<br> spa & Resort</h1>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="left carousel-control" href="#myCarousel1" data-slide="prev"> <img src="a/images/icons/left-arrow.png" onmouseover="this.src = 'a/images/icons/left-arrow-hover.png'" onmouseout="this.src = 'a/images/icons/left-arrow.png'" alt="left"></a>
+                <a class="right carousel-control" href="#myCarousel1" data-slide="next"><img src="a/images/icons/right-arrow.png" onmouseover="this.src = 'a/images/icons/right-arrow-hover.png'" onmouseout="this.src = 'a/images/icons/right-arrow.png'" alt="left"></a>
+
+            </div>
 
 
             <!--end-->
