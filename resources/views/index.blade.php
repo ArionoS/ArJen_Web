@@ -125,8 +125,8 @@ License URI: http://www.themevault.net/license/-->
                     </div>
 
                 </div>
-                <a class="left carousel-control" href="#myCarousel1" data-slide="prev"> <img src="a/images/icons/left-arrow.png" onmouseover="this.src = 'images/icons/left-arrow-hover.png'" onmouseout="this.src = 'images/icons/left-arrow.png'" alt="left"></a>
-                <a class="right carousel-control" href="#myCarousel1" data-slide="next"><img src="a/images/icons/right-arrow.png" onmouseover="this.src = 'images/icons/right-arrow-hover.png'" onmouseout="this.src = 'images/icons/right-arrow.png'" alt="left"></a>
+                <a class="left carousel-control" href="#myCarousel1" data-slide="prev"> <img src="a/images/icons/left-arrow.png" onmouseover="this.src = 'a/images/icons/left-arrow-hover.png'" onmouseout="this.src = 'a/images/icons/left-arrow.png'" alt="left"></a>
+                <a class="right carousel-control" href="#myCarousel1" data-slide="next"><img src="a/images/icons/right-arrow.png" onmouseover="this.src = 'a/images/icons/right-arrow-hover.png'" onmouseout="this.src = 'a/images/icons/right-arrow.png'" alt="left"></a>
 
             </div>
             <div class="clearfix"></div>
