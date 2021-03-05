@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+<<<<<<< HEAD
 Route::get('/home', function () {return view('home');})->name('home');
 Route::get('/rooms', function () {return view('rooms');})->name('rooms');
 Route::get('/gallery', function () {return view('gallery');})->name('gallery');
@@ -31,3 +32,7 @@ Route::get('/hello',function(){
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class,'index'])->name('home');
+=======
+Route::get('/about', function () {return view('about');})->name('about');
+Route::get('/', function () {return view('about');})->name('about');
+>>>>>>> 66cc6e300f162d397abf7cef71b4301eb6ccf901

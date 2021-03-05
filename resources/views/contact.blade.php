@@ -18,7 +18,11 @@ License URI: http://www.themevault.net/license/-->
         <link href="a/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <!-- Custom styles for this template -->
         <link href="a/css/style.css" rel="stylesheet">
+<<<<<<< HEAD
         <link href="a/onts/antonio-exotic/stylesheet.css" rel="stylesheet">
+=======
+        <link href="a/fonts/antonio-exotic/stylesheet.css" rel="stylesheet">
+>>>>>>> 66cc6e300f162d397abf7cef71b4301eb6ccf901
         <link rel="stylesheet" href="a/css/lightbox.min.css">
         <link href="a/css/responsive.css" rel="stylesheet">
         <script src="a/js/jquery.min.js" type="text/javascript"></script>
