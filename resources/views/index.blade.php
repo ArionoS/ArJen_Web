@@ -77,13 +77,13 @@ License URI: http://www.themevault.net/license/-->
                                     </div>
                                     <div class="collapse navigation navbar-collapse navbar-ex1-collapse remove-space">
                                         <ul class="list-unstyled nav1 cl-effect-10">
-                                            <li><a  data-hover="Home" class="active"><span>Home</span></a></li>
-                                            <li><a data-hover="About"  href="about.html"><span>About</span></a></li>
-                                            <li><a data-hover="Rooms"  href="rooms.html"><span>Rooms</span></a></li>
-                                            <li><a data-hover="Gallery"  href="gallery.html"><span>Gallery</span></a></li>
-                                            <li><a data-hover="Dinning" href="dinning.html"><span>Dinning</span></a></li>
-                                            <li><a data-hover="News" href="news.html"><span>News</span></a></li>
-                                            <li><a data-hover="Contact Us" href="contact.html"><span>contact Us</span></a></li>
+                                            <li><a  data-hover="Home" class={{route('home')}}><span>Home</span></a></li>
+                                            <li><a data-hover="About"  href={{route('about')}}><span>About</span></a></li>
+                                            <li><a data-hover="Rooms"  href={{route('room')}}><span>Rooms</span></a></li>
+                                            <li><a data-hover="Gallery"  href={{route('gallery')}}><span>Gallery</span></a></li>
+                                            <li><a data-hover="Dinning" href={{route('dinning')}}><span>Dinning</span></a></li>
+                                            <li><a data-hover="News" href={{route('news')}}><span>News</span></a></li>
+                                            <li><a data-hover="Contact Us" href={{route('contact us')}}><span>contact Us</span></a></li>
                                         </ul>
 
                                     </div>

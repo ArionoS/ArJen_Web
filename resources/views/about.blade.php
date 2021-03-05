@@ -10,22 +10,22 @@ License URI: http://www.themevault.net/license/-->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="images/icons/favicon.png"/>
+        <link rel="icon" href="a/images/icons/favicon.png"/>
         <title>vacayhome</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="a/css/bootstrap.min.css" rel="stylesheet">
+        <link href="a/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <!-- Custom styles for this template -->
-        <link href="css/style.css" rel="stylesheet">
-        <link href="fonts/antonio-exotic/stylesheet.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/lightbox.min.css">
-        <link href="css/responsive.css" rel="stylesheet">
-        <script src="js/jquery.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="js/lightbox-plus-jquery.min.js" type="text/javascript"></script>
-        <script src="js/instafeed.min.js" type="text/javascript"></script>
-        <script src="js/custom.js" type="text/javascript"></script>
+        <link href="a/css/style.css" rel="stylesheet">
+        <link href="a/fonts/antonio-exotic/stylesheet.css" rel="stylesheet">
+        <link rel="stylesheet" href="a/css/lightbox.min.css">
+        <link href="a/css/responsive.css" rel="stylesheet">
+        <script src="a/js/jquery.min.js" type="text/javascript"></script>
+        <script src="a/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="a/js/lightbox-plus-jquery.min.js" type="text/javascript"></script>
+        <script src="a/js/instafeed.min.js" type="text/javascript"></script>
+        <script src="a/js/custom.js" type="text/javascript"></script>
     </head>
     <body>
         <div id="page">
@@ -75,7 +75,7 @@ License URI: http://www.themevault.net/license/-->
                                     <div class="collapse navigation navbar-collapse navbar-ex1-collapse remove-space">
                                         <ul class="list-unstyled nav1 cl-effect-10">
                                             <li><a data-hover="Home" href="index.html"><span>Home</span></a></li>
-                                            <li><a data-hover="About"  class="active"><span>About</span></a></li>
+                                            <li><a data-hover="About"  href={{route('about')}}><span>About</span></a></li>
                                             <li><a data-hover="Rooms" href="rooms.html"><span>Rooms</span></a></li>
                                             <li><a data-hover="Gallery"  href="gallery.html"><span>Gallery</span></a></li>
                                             <li><a data-hover="Dinning" href="dinning.html"><span>Dinning</span></a></li>
@@ -167,7 +167,7 @@ License URI: http://www.themevault.net/license/-->
                                 <h4>explore</h4>
                                 <ul class="list-unstyled footer-links">
                                     <li><a href="index.html">Home</a></li>
-                                    <li class="active"><a>About</a></li>
+                                    <li href={{route('about')}}><a>About</a></li>
                                     <li><a href="rooms.html">Rooms</a></li>
                                     <li><a href="gallery.html">Gallery</a></li>
                                     <li><a href="#">Dinning</a></li>
