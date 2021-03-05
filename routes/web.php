@@ -17,12 +17,12 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('/home', function () {return view('home');})->name('home');
-Route::get('/room', function () {return view('room');})->name('room');
+Route::get('/rooms', function () {return view('rooms');})->name('rooms');
 Route::get('/gallery', function () {return view('gallery');})->name('gallery');
 Route::get('/dinning', function () {return view('dinning');})->name('dinning');
 Route::get('/about', function () {return view('about');})->name('about');
 Route::get('/news', function () {return view('news');})->name('news');
-Route::get('/contact us', function () {return view('contact us');})->name('contact us');
+Route::get('/contact', function () {return view('contact');})->name('contact');
 
 Route::get('/hello',function(){
   return view('blog.hello');

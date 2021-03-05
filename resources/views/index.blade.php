@@ -79,11 +79,11 @@ License URI: http://www.themevault.net/license/-->
                                         <ul class="list-unstyled nav1 cl-effect-10">
                                             <li><a  data-hover="Home" class={{route('home')}}><span>Home</span></a></li>
                                             <li><a data-hover="About"  href={{route('about')}}><span>About</span></a></li>
-                                            <li><a data-hover="Rooms"  href={{route('room')}}><span>Rooms</span></a></li>
+                                            <li><a data-hover="Rooms"  href={{route('rooms')}}><span>Rooms</span></a></li>
                                             <li><a data-hover="Gallery"  href={{route('gallery')}}><span>Gallery</span></a></li>
                                             <li><a data-hover="Dinning" href={{route('dinning')}}><span>Dinning</span></a></li>
                                             <li><a data-hover="News" href={{route('news')}}><span>News</span></a></li>
-                                            <li><a data-hover="Contact Us" href={{route('contact us')}}><span>contact Us</span></a></li>
+                                            <li><a data-hover="Contact Us" href={{route('contact')}}><span>contact Us</span></a></li>
                                         </ul>
 
                                     </div>
@@ -462,13 +462,13 @@ License URI: http://www.themevault.net/license/-->
                             <div class="footer-details">
                                 <h4>explore</h4>
                                 <ul class="list-unstyled footer-links">
-                                    <li class="active"><a>Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="rooms.html">Rooms</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a href="#">Dinning</a></li>
-                                    <li> <a href="news.html">News</a></li>
-                                    <li> <a href="contact.html">Contact</a></li>
+                                    <li class={{route('home')}}><a>Home</a></li>
+                                    <li><a href={{route('about')}}>About</a></li>
+                                    <li><a href={{route('rooms')}}>Rooms</a></li>
+                                    <li><a href={{route('gallery')}}>Gallery</a></li>
+                                    <li><a href={{route('dinning')}}>Dinning</a></li>
+                                    <li> <a href={{route('news')}}>News</a></li>
+                                    <li> <a href={{route('contact')}}>Contact</a></li>
                                 </ul>
                             </div>
                         </div>

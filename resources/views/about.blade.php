@@ -19,7 +19,7 @@ License URI: http://www.themevault.net/license/-->
         <!-- Custom styles for this template -->
         <link href="a/css/style.css" rel="stylesheet">
         <link href="a/fonts/antonio-exotic/stylesheet.css" rel="stylesheet">
-        <link rel="stylesheet" href="a/css/lightbox.min.css">
+        <link rel="a/stylesheet" href="css/lightbox.min.css">
         <link href="a/css/responsive.css" rel="stylesheet">
         <script src="a/js/jquery.min.js" type="text/javascript"></script>
         <script src="a/js/bootstrap.min.js" type="text/javascript"></script>
@@ -74,13 +74,13 @@ License URI: http://www.themevault.net/license/-->
                                     </div>
                                     <div class="collapse navigation navbar-collapse navbar-ex1-collapse remove-space">
                                         <ul class="list-unstyled nav1 cl-effect-10">
-                                            <li><a data-hover="Home" href="index.html"><span>Home</span></a></li>
+                                            <li><a  data-hover="Home" class={{route('home')}}><span>Home</span></a></li>
                                             <li><a data-hover="About"  href={{route('about')}}><span>About</span></a></li>
-                                            <li><a data-hover="Rooms" href="rooms.html"><span>Rooms</span></a></li>
-                                            <li><a data-hover="Gallery"  href="gallery.html"><span>Gallery</span></a></li>
-                                            <li><a data-hover="Dinning" href="dinning.html"><span>Dinning</span></a></li>
-                                            <li><a data-hover="News" href="news.html"><span>News</span></a></li>
-                                            <li><a data-hover="Contact Us" href="contact.html"><span>contact Us</span></a></li>
+                                            <li><a data-hover="Rooms"  href={{route('rooms')}}><span>Rooms</span></a></li>
+                                            <li><a data-hover="Gallery"  href={{route('gallery')}}><span>Gallery</span></a></li>
+                                            <li><a data-hover="Dinning" href={{route('dinning')}}><span>Dinning</span></a></li>
+                                            <li><a data-hover="News" href={{route('news')}}><span>News</span></a></li>
+                                            <li><a data-hover="Contact Us" href={{route('contact')}}><span>contact Us</span></a></li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -166,13 +166,13 @@ License URI: http://www.themevault.net/license/-->
                             <div class="footer-details">
                                 <h4>explore</h4>
                                 <ul class="list-unstyled footer-links">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li href={{route('about')}}><a>About</a></li>
-                                    <li><a href="rooms.html">Rooms</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a href="#">Dinning</a></li>
-                                    <li> <a href="news.html">News</a></li>
-                                    <li> <a href="contact.html">Contact</a></li>
+                                    <li class={{route('home')}}><a>Home</a></li>
+                                    <li><a href={{route('about')}}>About</a></li>
+                                    <li><a href={{route('rooms')}}>Rooms</a></li>
+                                    <li><a href={{route('gallery')}}>Gallery</a></li>
+                                    <li><a href={{route('dinning')}}>Dinning</a></li>
+                                    <li> <a href={{route('news')}}>News</a></li>
+                                    <li> <a href={{route('contact')}}>Contact</a></li>
                                 </ul>
                             </div>
                         </div>
