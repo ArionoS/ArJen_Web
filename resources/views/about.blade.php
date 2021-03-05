@@ -93,15 +93,36 @@ License URI: http://www.themevault.net/license/-->
                     </div>
                 </div>
             </header>
-
-
             <!--end-->
-            <section class="image-head-wrapper" style="background-image: url('images/banner3.jpg');">
-                <div class="inner-wrapper">
-                    <h1>About us</h1>
+            <div id="myCarousel1" class="carousel slide" data-ride="carousel"> 
+                <!-- Indicators -->
+
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel1" data-slide-to="1"></li>
+                    <li data-target="#myCarousel1" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active"> <img src="a/images/banner.jpg" style="width:100%; height: 500px" alt="First slide">
+                        <div class="carousel-caption">
+                            <h1>vacayhome<br> spa & Resort</h1>
+                        </div>
+                    </div>
+                    <div class="item"> <img src="a/images/banner2.jpg" style="width:100%; height: 500px" alt="Second slide">
+                        <div class="carousel-caption">
+                            <h1>vacayhome<br> spa & Resort</h1>
+                        </div>
+                    </div>
+                    <div class="item"> <img src="a/images/banner3.jpg" style="width:100%; height: 500px" alt="Third slide">
+                        <div class="carousel-caption">
+                            <h1>vacayhome<br> spa & Resort</h1>
+                        </div>
+                    </div>
+
                 </div>
-            </section>
-            <div class="clearfix"></div>
+                <a class="left carousel-control" href="#myCarousel1" data-slide="prev"> <img src="a/images/icons/left-arrow.png" onmouseover="this.src = 'a/images/icons/left-arrow-hover.png'" onmouseout="this.src = 'a/images/icons/left-arrow.png'" alt="left"></a>
+                <a class="right carousel-control" href="#myCarousel1" data-slide="next"><img src="a/images/icons/right-arrow.png" onmouseover="this.src = 'a/images/icons/right-arrow-hover.png'" onmouseout="this.src = 'a/images/icons/right-arrow.png'" alt="left"></a>
+
 
 
             <section class="about-block">
